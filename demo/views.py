@@ -4,5 +4,5 @@ from django.http import HttpResponse
 
 
 def index(request) :
-    return HttpResponse("nap test")
+    return render(request,'index.html')
     
